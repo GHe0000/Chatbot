@@ -1,0 +1,3 @@
+Use: AIML_ChatBot> hello
+What can I call you?
+> exit

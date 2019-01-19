@@ -12,9 +12,11 @@ else:
     bot.bootstrap(learnFiles = 'startup.xml', commands = 'Chatbot')
     bot.saveBrain("bot_brain.brn")
 
+def init():
+    os.chdir('../..')
+
 def get_response(message_in):
     return bot.respond(message_in, sessionId)
 
 def get_name():
-    os.chdir("../..")
     return 'AIML_ChatBot'

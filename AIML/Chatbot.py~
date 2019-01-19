@@ -16,5 +16,5 @@ def get_response(message_in):
     return bot.respond(message_in, sessionId)
 
 def get_name():
-    os.chdir("../..")`
+    os.chdir("../..")
     return 'AIML_ChatBot'
